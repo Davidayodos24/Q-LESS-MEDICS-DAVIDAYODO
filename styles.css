@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    color: yellow;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+     /* Adjusted for better contrast */
+    
+}
+
+#logo {
+    width: 150px; /* Adjust this value to change the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#form-container, #appointments-container {
+    margin: 20px;
+    padding: 20px;
+     /* Semi-transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners */
+}
+
+#appointments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#appointments-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+    text-decoration: none;
+}
+
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* New styles for the accept, cancel, and delete buttons */
+button.accept {
+    background-color: #28a745; /* Green */
+}
+
+button.accept:hover {
+    background-color: #218838;
+}
+
+button.cancel {
+    background-color: #ffc107; /* Yellow */
+}
+
+button.cancel:hover {
+    background-color: #e0a800;
+}
+
+button.delete {
+    background-color: #dc3545; /* Red */
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
