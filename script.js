@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("appointment-form");
     const appointmentsList = document.getElementById("appointments-list");
     const selectDoctor = document.getElementById("select-doctor");
