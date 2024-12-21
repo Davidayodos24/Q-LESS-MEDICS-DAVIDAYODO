@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const logoutButton = document.getElementById("logout-button");
 
     // Fetch the logged-in doctor from sessionStorage
-    const loggedInDoctor = JSON.parse(sessionStorage.getItem("loggedInUser"));
+     const loggedInDoctor = JSON.parse(sessionStorage.getItem("loggedInUser"));
 
     if (!loggedInDoctor || loggedInDoctor.role !== "doctor") {
         alert("Unauthorized access!");
