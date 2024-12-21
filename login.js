@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function (e) {
     const password = document.getElementById("password").value;
     const errorMessage = document.getElementById("error-message");
 
-    fetch("db.json")
+     fetch("db.json")
         .then(response => response.json())
         .then(data => {
             const doctors = data.doctors;
