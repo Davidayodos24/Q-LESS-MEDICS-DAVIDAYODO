@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+ document.addEventListener("DOMContentLoaded", () => {
     const selectDoctor = document.getElementById("select-doctor");
 
     // Fetch doctors and populate dropdown
