@@ -1,5 +1,5 @@
 {
-  "doctors": [
+   "doctors": [
       { "id": 1, "name": "Dr. John Mwaura", "specialty": "Cardiology", "hospital": "Mater Misericordiae Hospital", "username": "jmwaura", "password": "password1" },
       { "id": 2, "name": "Dr. Opiyo Bush", "specialty": "Dermatology", "hospital": "Town Clinic", "username": "obush", "password": "password2" },
       { "id": 3, "name": "Dr. Mwaura Njoroge", "specialty": "Dermatology", "hospital": "Nairobi Hospital", "username": "mnjoroge", "password": "password3" },
